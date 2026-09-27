@@ -1,0 +1,15 @@
+{
+  "budget": 1,
+  "bucket_width": 5,
+  "window_buckets": 2,
+  "point_error_code": "E_DUP_POINT",
+  "backwards_error_code": "E_TIME_BACKWARDS",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "buckets": [], "last_at": 0, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "point", "at": 3, "source": "a", "count": 2 },
+    { "id": 2, "kind": "point", "at": 4, "source": "b", "count": 1 },
+    { "id": 3, "kind": "point", "at": 7, "source": "a", "count": 3 },
+    { "id": 4, "kind": "point", "at": 12, "source": "c", "count": 4 }
+  ]
+}
